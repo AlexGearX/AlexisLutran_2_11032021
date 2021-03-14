@@ -5,14 +5,31 @@ body
     font-family: 'Raleway', sans-serif;
     background-color: #ffffff ;
     margin: 0mm;
+    box-sizing: border-box;
 }
 header, section 
 {
     margin: 15px 30px 15px 30px;
 } 
+img
+{
+    object-fit: cover; 
+}
+a
+{
+    color: #000;
+    text-decoration: none;
+}
+.etoile
+{
+    color:  #0065FC;
+}
+.etoile span
+{
+    color: #d9d9d9 ;
+}
 
-
-/* Header */
+/* ------------------------------------------------------------Header------------------------------------------------------------ */
 
 header
 {
@@ -30,10 +47,8 @@ nav a
 {
     font-size: 1em;
     font-weight: 500;
-    color: #000;
     padding: 1.7em 3em 2em 2em;
     text-align: center;
-    text-decoration: none;
 }
 
 nav a:hover
@@ -53,16 +68,138 @@ nav a:hover
 .nav-inscription a:hover 
 {
     color: #0065FC;
-    border-top: 10px solid #0065FC ;
+    border-top: 10px solid #0065FC;
 }
 
-/* Section Hebergement */
+/* ------------------------------------------------------------Section recherche ------------------------------------------------------------*/
+
+.section.recherche
+{
+    display: flex;
+    margin: 30px 30px;
+    flex-direction: column;
+}
+.section.recherche h2
+{
+margin-bottom: 0mm;
+}
+
+.recherche
+{
+    display: flex;
+}
+
+.recherche i.fas.fa-map-marker-alt 
+{
+    background-color: #f2f2f2;
+    font-size: 1em;
+    border-radius: 30% 0 0 30%;
+    padding: 20px;
+    height: 1em;
+
+}
+
+.recherche input
+{
+    border: solid 2px #f2f2f2;
+    font-weight: 600;
+    padding: 0px 15px 0px 15px;
+    font-size: 1em;
+    height: 3.25em;
+}
+
+
+.recherche button.search
+{
+    background-color: #0065FC;
+    border-radius: 0 15px 15px 0;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1em;
+    padding: 0px 20px 0px 20px;
+    margin: 0px 40px 10px 0px;
+    border: none;
+    height: 3.15em;
+    
+}
+
+.filtre 
+{
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    align-items: center;
+}
+
+.filtre :hover 
+{
+    background-color: #F2F2F2;
+}
+
+.filtre button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid  #F2F2F2;
+    background-color: #fff;
+    border-radius: 40px;
+    margin-left: 20px;
+    padding-right: 20px;
+    font-size: 1em;
+    font-weight: bold;
+    height: 50px;
+}
+
+button.famille 
+{
+    margin-left: 10px;
+}
+
+i.fas.fa-search {
+    display: none;
+}
+
+button i {
+    background-color: #DEEBFF;
+    padding: 16px;
+    border-radius: 40px;
+    color: #0065FC;
+    margin-right: 10px;
+    margin-left: -10px;
+    border: none;
+}
+button i.fas.fa-child {
+    width:1em;
+}
+
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.info i {
+    margin: 0 10px 0 5px;
+    align-items: center;
+    color: #0065FC;
+    border-radius: 50%;
+    padding: 5px 10px 5px 10px;
+    border: solid 1px lightgray;
+}
+
+.info p {
+    font-weight: 400;
+}
+
+/* ------------------------------------------------------------Section Hebergement------------------------------------------------------------ */
 
 
 
 
 
 
-/* Aside populaire */
-/* Section Activité */
-/* Footer */
+/* ------------------------------------------------------------Aside populaire------------------------------------------------------------ */
+/* ------------------------------------------------------------Section Activité------------------------------------------------------------ */
+/* ------------------------------------------------------------Footer------------------------------------------------------------ */
