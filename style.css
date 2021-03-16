@@ -248,11 +248,6 @@ div.etoile i
     box-shadow: 0 0 10px 0 #525151;
 }
 
-.carte-hebergement  a:hover 
-{
-    width: 100%;
-    background-color: #DEEBFF;
-}
 
 div.carte-hebergement img 
 {
@@ -270,7 +265,7 @@ div.carte-hebergement img
 {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+
     width: 34%;
     background-color: #F2F2F2;
     border-radius: 22px;
@@ -287,6 +282,7 @@ div.carte-hebergement img
 div.carte-hebergement-populaire {
     display: flex;
     align-items: center;
+    background-color: #ffffff;
     height: 140px;
     border-radius: 20px;
     margin: 0 35px 30px 35px;
