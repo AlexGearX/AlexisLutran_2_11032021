@@ -132,10 +132,7 @@ margin-bottom: 0mm;
     align-items: center;
 }
 
-.filtre :hover 
-{
-    background-color: #F2F2F2;
-}
+
 
 .filtre button {
     display: flex;
@@ -151,10 +148,15 @@ margin-bottom: 0mm;
     height: 50px;
 }
 
-button.famille 
+.filtre :hover 
 {
-    margin-left: 10px;
+    background-color: #F2F2F2;
 }
+.filtre button :hover
+{
+    background-color: #DEEBFF;
+}
+
 
 i.fas.fa-search {
     display: none;
@@ -194,19 +196,27 @@ button i.fas.fa-child {
 }
 
 /* ------------------------------------------------------------Section Hebergement------------------------------------------------------------ */
-
-.hebergement 
+.tableau-hebergement
 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.section.hebergement
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
     background-color: #f2f2f2;
     border-radius: 25px;
     width: 72%;
     margin-right: 30px;
+    
 }
 
-.hebergement h2 
+.section.hebergement h2 
 {
     width: 100%;
     margin: 0;
@@ -218,6 +228,24 @@ button i.fas.fa-child {
     font-size: 14px;
     font-weight: 700;
     margin: 10px 0 5px 10px ;
+}
+.description-carte p
+{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 5px 0 0 10px ;
+}
+.carte-hebergement 
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    padding: 5px;    
+    width: 20%;
+    margin: 15px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 0 #525151;
 }
 
 div.etoile 
@@ -233,28 +261,17 @@ div.etoile i
     margin-right: -3px;
 }
 
-.carte-hebergement p 
-{
-    font-size: 14px;
-    font-weight: 400;
-    margin: 5px 0 0 10px ;
-}
-
-.hebergement a 
-{
-    width: 27%;
-    margin: 15px;
-    border-radius: 20px;
-    box-shadow: 0 0 10px 0 #525151;
-}
-
-
 div.carte-hebergement img 
 {
     width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     height: 105px;
+}
+
+.afficherplus {
+    width: 100%;
+    margin: 0 0 10px 40px;
 }
 
 
@@ -265,7 +282,7 @@ div.carte-hebergement img
 {
     display: flex;
     flex-direction: column;
-
+    flex-wrap: wrap;
     width: 34%;
     background-color: #F2F2F2;
     border-radius: 22px;
