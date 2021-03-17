@@ -413,10 +413,10 @@ button i.fas.fa-child {
     align-items: center;
     
     padding: 5px;    
-    width: 20%;
+    width: 25%;
     height: 180px;
     margin: 15px;
-    border-radius: 20px;
+    border-radius: 30px;
     box-shadow: 0 0 10px 0 #525151;
 }
 
@@ -436,8 +436,8 @@ div.etoile i
 div.carte-hebergement img 
 {
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
     height: 105px;
 }
 
@@ -456,12 +456,33 @@ div.carte-hebergement img
     }
 
     .section.hebergement {
-        width: 100%;
         background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+        padding: 5px;    
+        width: 300%;
+        margin-left: -20px;
+        border-radius: 30px;
     }
+    .section.hebergement h2 
+{
+    width: 20%;
+    margin: 0;
+    padding: 0;
+}
 
     .section.hebergement a {
         width: 80%;
+    }
+
+    div.carte-hebergement img 
+    {
+        width: 100%;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
     }
 }
 
@@ -537,6 +558,7 @@ div.carte-hebergement-populaire img
 @media screen and (min-width: 320px) and (max-width: 600px) 
 {
     .aside-hebergment-populaire {
+        margin: 0px 100px 0px 100px;
         width: 100%;
         border-radius: 0;
     }
