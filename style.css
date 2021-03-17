@@ -415,7 +415,7 @@ button i.fas.fa-child {
     padding: 5px;    
     width: 25%;
     height: 180px;
-    margin: 15px;
+    margin: 20px;
     border-radius: 30px;
     box-shadow: 0 0 10px 0 #525151;
 }
@@ -463,20 +463,20 @@ div.carte-hebergement img
         flex-direction: column;
         
         padding: 5px;    
-        width: 300%;
+        width: 340%;
         margin-left: -20px;
+        margin-top: 20px;
         border-radius: 30px;
     }
     .section.hebergement h2 
 {
+    
     width: 20%;
-    margin: 0;
+    margin: 0 0 5px -80px;
     padding: 0;
 }
 
-    .section.hebergement a {
-        width: 80%;
-    }
+
 
     div.carte-hebergement img 
     {
@@ -562,6 +562,10 @@ div.carte-hebergement-populaire img
         width: 100%;
         border-radius: 0;
     }
+    .titrepopulaire {
+        margin: 0px 0px 0px 20px;
+
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 900px) 
@@ -644,29 +648,26 @@ div.carte-hebergement-populaire img
     margin-bottom: 30px;
 }
 /*-----------------------@media/activite--------------------*/
-@media screen and (min-width: 900px) and (max-width: 1100px) 
-{
-    .Activite-site-1 h4, .Activite-site-1 h4 , .Activite-site-3 h4 , .Activite-site-4 h4 
-    {
-        font-size: 13px;
-    }
-}
 
 @media screen and (min-width: 320px) and (max-width: 900px) 
 {
     .Activite-site-1 , .Activite-site-2, .Activite-site-3, .Activite-site-4 
     {
-        width: 90%;
+        width: 88%;
     }
-
+    
     .Activite-site-1 ,.Activite-site-3
     {
         height: 220px;
     }
 
-    .Activite-site-1, .Activite-site-3 img 
+    .Activite-site-3 img 
     {
         height: 170px;
+    }
+    .Activite-site-1 img 
+    {
+        height: 75%;
     }
 
 }
