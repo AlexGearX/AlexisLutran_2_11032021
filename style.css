@@ -433,7 +433,7 @@ div.etoile i
     margin-right: -3px;
 }
 
-div.carte-hebergement img 
+article.carte-hebergement img 
 {
     width: 100%;
     border-top-left-radius: 25px;
@@ -478,7 +478,7 @@ div.carte-hebergement img
 
 
 
-    div.carte-hebergement img 
+    article.carte-hebergement img 
     {
         width: 100%;
         border-top-left-radius: 25px;
@@ -521,7 +521,7 @@ div.imagehotel
     height: 100%;
 }
 
-div.carte-hebergement-populaire 
+article.carte-hebergement-populaire 
 {
     display: flex;
     align-items: center;
@@ -533,7 +533,7 @@ div.carte-hebergement-populaire
     box-shadow: 0 0 10px 0 #525151;
 }
 
-div.carte-hebergement-populaire img 
+article.carte-hebergement-populaire img 
 {
     width: 100%;
     height: 100%;
