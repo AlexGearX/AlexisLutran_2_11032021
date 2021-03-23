@@ -1,8 +1,5 @@
 /* General */
 
-@import url(MobileStyle.css) screen and (max-width:768px);
-@import url(MobileStyle.css) screen and (max-width:1024px);
-
 body
 {
     font-family: 'Raleway', sans-serif;
@@ -31,7 +28,6 @@ a
 {
     color: #d9d9d9 ;
 }
-
 
 /* ------------------------------------------------------------Header------------------------------------------------------------ */
 
@@ -159,10 +155,6 @@ nav a:hover
     height: 50px;
 }
 
-.filtre :hover 
-{
-   /* background-color: #F2F2F2; */
-}
 .filtre button :hover
 {
     background-color: #DEEBFF;
@@ -262,20 +254,20 @@ button i.fas.fa-child {
     box-shadow: 0 0 10px 0 #525151;
 }
 
-div.etoile 
+.etoile 
 {
     margin-left: 10px;
     margin-bottom: 5px;
 }
 
-div.etoile i 
+.etoile i 
 {
     font-size: 12px;
     font-weight: 700;
     margin-right: -3px;
 }
 
-article.carte-hebergement img 
+.carte-hebergement img 
 {
     width: 100%;
     border-top-left-radius: 25px;
