@@ -1,4 +1,4 @@
-    @media screen and (min-width: 320px) and (max-width: 768px) 
+@media screen and (max-width: 768px)
 {
     /*------------------------------------------HEADER--------------------------------------*/
     header 
@@ -55,7 +55,8 @@
         border-bottom:  3px solid #f2f2f2;
     }  
      
-    .nav-hebergement:hover, .nav-activites:hover {
+    .nav-hebergement:hover, .nav-activites:hover 
+    {
         border-bottom: 3px solid #0065FC;
     }
 
@@ -81,75 +82,76 @@
 
 /*------------------------------------------RECHERCHE--------------------------------------*/
 
-     .section.recherche 
+    .section.recherche 
     {
         margin: 30px 0px;
-     }
+    }
  
-     .section.recherche h2 
-     {
+    .section.recherche h2 
+    {
          font-size: 20px;
-     }
+    }
  
-     .section.recherche p 
-     {
+    .section.recherche p 
+    {
          font-size: 15px;
-     }
+    }
  
-     .search span 
-     {
+    .search span 
+    {
          display: none;
-     }
+    }
      
-     i.fas.fa-search 
-     {
+    i.fas.fa-search 
+    {
          display: flex;
          color: white;
          background-color: #0065FC;
          margin: 0;
-     }
+    }
  
-     .recherche input 
-     {
+    .recherche input 
+    {
          padding-right: 0;
          max-width: 230px;
-     }
+    }
      
-     button.search 
-     {
+    button.search 
+    {
          border-radius: 15px 15px 15px 15px;
          color: white;
          font-size: 1.2rem;
          padding: 5px;
          margin: -10px;
-     }
+    }
 
-     .filtre
-     {
+    .filtre
+    {
          display: flex;
          flex-direction: column;
          align-items: flex-start;
-     }
+    }
  
-     .filtre h3 
-     {
+    .filtre h3 
+    {
          width: 100%;
          margin: 0 0 20px 0;
-     }
+    }
  
-     .filtres button 
-     {
+    .filtres button 
+    {
          margin-left: 0;
          margin-bottom: 20px;
          font-size: 16px;
-     }
+    }
  
-     .info p 
-     {
+    .info p 
+    {
          margin: 0;
-     }
+    }
      /*------------------------------------------HEBERGEMENT--------------------------------------*/
-      .tableau-hebergement {
+    .tableau-hebergement 
+    {
         margin-top: 50px;
         margin-bottom: 30px;
         flex-direction: column-reverse;
@@ -170,20 +172,19 @@
     }
     .section.hebergement h2 
     {
-    
-    width: 20%;
-    margin: 0 0 5px -80px;
-    padding: 0;
+        width: 20%;
+        margin: 0 0 5px -80px;
+        padding: 0;
     }
 
-    article.carte-hebergement img 
+    .carte-hebergement img 
     {
         width: 100%;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
     }
      /*------------------------------------------POPULAIRE--------------------------------------*/
-         .aside-hebergment-populaire {
+        .aside-hebergment-populaire {
         margin: 0px 100px 0px 100px;
         width: 100%;
         border-radius: 0;
@@ -214,7 +215,7 @@
 
      /*------------------------------------------FOOTER--------------------------------------*/
 
-         footer 
+    footer 
     {
         display: flex;
         align-items:flex-start;
@@ -224,8 +225,8 @@
 
     footer div
     {
-            margin-bottom: 30px;
-            margin-left:   33px;
+        margin-bottom: 30px;
+        margin-left:   33px;
     }
 
     footer p, footer h3 
@@ -241,7 +242,7 @@
     }
     .footer.a-propos
     {
-    margin-left: 30px;
+        margin-left: 30px;
     }
     .footer.assistance
     {
