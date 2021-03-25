@@ -163,7 +163,8 @@
         flex-direction: column-reverse;
     }
 
-    .section.hebergement {
+    .section.hebergement 
+    {
         background-color: white;
         display: flex;
         justify-content: center;
@@ -191,14 +192,25 @@
         border-top-right-radius: 25px;
     }
      /*------------------------------------------POPULAIRE--------------------------------------*/
-        .aside-hebergment-populaire {
+        .aside-hebergment-populaire 
+        {
         margin: 0px 100px 0px 100px;
         width: 100%;
         border-radius: 0;
     }
-    .titrepopulaire {
+        .carte-hebergement-populaire 
+    {
+        width: 100%;
+    }
+    .titrepopulaire 
+    {
         margin: 0px 0px 0px 20px;
-
+    }
+    
+    .afficherplus 
+    {
+    width: 20%;
+    margin: 0 0 0 -80px;
     }
      /*------------------------------------------ACTIVITES--------------------------------------*/
     .Activite-site-1 , .Activite-site-2, .Activite-site-3, .Activite-site-4 
