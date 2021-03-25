@@ -178,9 +178,9 @@
     }
     .section.hebergement h2 
     {
-        width: 20%;
+        width: 30%;
         font-size: 1.5em;
-        margin: 0 0 5px -80px;
+        margin: 0 0 5px 70px;
         padding: 0;
     }
 
@@ -201,7 +201,7 @@
 
     }
      /*------------------------------------------ACTIVITES--------------------------------------*/
-         .Activite-site-1 , .Activite-site-2, .Activite-site-3, .Activite-site-4 
+    .Activite-site-1 , .Activite-site-2, .Activite-site-3, .Activite-site-4 
     {
         width: 88%;
     }
