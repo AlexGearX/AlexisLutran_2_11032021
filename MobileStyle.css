@@ -163,8 +163,7 @@
         flex-direction: column-reverse;
     }
 
-    .section.hebergement 
-    {
+    .section.hebergement {
         background-color: white;
         display: flex;
         justify-content: center;
@@ -172,8 +171,8 @@
         flex-direction: column;
         
         padding: 5px;    
-        width: 340%;
-        margin-left: -20px;
+        width: 360%;
+        margin-left: 30px;
         margin-top: 20px;
         border-radius: 30px;
     }
@@ -181,8 +180,13 @@
     {
         width: 30%;
         font-size: 1.5em;
-        margin: 0 0 5px 70px;
+        margin: 0 0 5px 85px;
         padding: 0;
+    }
+
+        .carte-hebergement
+    {
+        margin: 5px 0  10px 0;
     }
 
     .carte-hebergement img 
@@ -191,26 +195,26 @@
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
     }
+
+    .afficherplus 
+    {
+    width: 20%;
+    margin: 0 0 0 -20px;
+    }
      /*------------------------------------------POPULAIRE--------------------------------------*/
-        .aside-hebergment-populaire 
-        {
+
+     .aside-hebergment-populaire {
         margin: 0px 100px 0px 100px;
         width: 100%;
         border-radius: 0;
     }
-        .carte-hebergement-populaire 
-    {
-        width: 100%;
-    }
-    .titrepopulaire 
-    {
+    .titrepopulaire {
         margin: 0px 0px 0px 20px;
     }
     
-    .afficherplus 
+    .carte-hebergement-populaire 
     {
-    width: 20%;
-    margin: 0 0 0 -80px;
+        width: 90%;
     }
      /*------------------------------------------ACTIVITES--------------------------------------*/
     .Activite-site-1 , .Activite-site-2, .Activite-site-3, .Activite-site-4 
@@ -231,11 +235,6 @@
     {
         height: 75%;
     }
-
-    .section.activites h2 
-{
-    margin: 0 0 0 0;
-}
 
      /*------------------------------------------FOOTER--------------------------------------*/
 
