@@ -180,13 +180,14 @@
     {
         width: 30%;
         font-size: 1.5em;
-        margin: 0 0 5px 85px;
+        margin: 0 0 15px 85px;
         padding: 0;
     }
 
         .carte-hebergement
     {
         margin: 5px 0  10px 0;
+        height: 80%;
     }
 
     .carte-hebergement img 
