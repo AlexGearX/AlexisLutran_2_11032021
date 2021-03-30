@@ -157,7 +157,7 @@ nav a:hover
 }
 
 .filtre :hover {
-    background-color: #fff3cc;
+    background-color: #F2F2F2;
 }
 
 .filtre button :hover
@@ -265,10 +265,6 @@ button i.fas.fa-child
     box-shadow: 0 0 10px 0 #525151;
 }
 
-.carte-hebergement:hover
-{
-    background-color: #fff3cc;
-}
 
 .etoile 
 {
@@ -350,10 +346,7 @@ article.carte-hebergement-populaire img
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.carte-hebergement-populaire:hover
-{
-    background-color: #fff3cc;
-}
+
 .descriptifcarte h4 
 {
     font-size: 15px;
@@ -425,10 +418,7 @@ article.carte-hebergement-populaire img
     box-shadow: 0 0 10px 0 grey;
     height: 220px;
 }
-.haut:hover,.bas:hover,.Activite-site-1:hover,.Activite-site-3:hover
-{
-    background-color: #fff3cc;
-}
+
 
 .Activite-site-2 img ,.Activite-site-4 img
 {
