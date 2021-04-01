@@ -1,16 +1,6 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) 
 {
     /*------------------------------------------HEADER--------------------------------------*/
-      /*  header 
-        {
-            display: block;
-        }
-
-        nav 
-        {
-            display: flex;
-            justify-content: space-around;
-        }*/
     /*------------------------------------------RECHERCHE--------------------------------------*/
      /*------------------------------------------HEBERGEMENT--------------------------------------*/
     .tableau-hebergement 
@@ -46,6 +36,7 @@
         height: 40%;
         margin: 10px  10px  10px 30px;
     }
+
     
      /*------------------------------------------POPULAIRE--------------------------------------*/
     .aside-hebergment-populaire {
