@@ -170,15 +170,16 @@
         
         padding: 5px;    
         width: 100%;
-        margin-left: 30px;
+        margin-left: 0px;
         margin-top: 20px;
         border-radius: 30px;
     }
     .section.hebergement h2 
     {
-        width: 30%;
+
+        width: 100%;
         font-size: 1.5em;
-        margin: 0 0 15px 0px;
+        margin: 0 0 10px 40px;
         padding: 0;
     }
 
@@ -198,12 +199,13 @@
 
     .afficherplus 
     {
-    width: 20%;
-    margin: 0 0 0 -20px;
+    width: 100%;
+    margin: 0 0 0 30px;
     }
      /*------------------------------------------POPULAIRE--------------------------------------*/
 
-     .aside-hebergment-populaire {
+     .aside-hebergment-populaire 
+     {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -211,7 +213,8 @@
         width: 100%;
         border-radius: 0;
     }
-    .titrepopulaire {
+    .titrepopulaire 
+    {
         margin: 0px 0px 0px 0px;
     }
     
